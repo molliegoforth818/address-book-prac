@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,23 @@
     <link rel="stylesheet" href="address.css">
     <title>Document</title>
 </head>
+
 <body>
+    <article id="wishList"> </article>
     <fieldset>
         <label for="thing">Item</label>
-        <input type="text" id="wishListItem"autofocus />
+        <input type="text" id="wishListItem" autofocus />
     </fieldset>
     <fieldset>
         <label for="place">Location</label>
         <input type="text" id="wishListLocation" />
-        <button id="saveWishlist">Save to Wishlist</button>
     </fieldset>
-    <article id="wishList"> </article>
-    <script>type="module";src="address.js"</script>
+    <button id="saveWishlist">Save to Wishlist</button>
+    <section>
+        <div id="container"></div>
+        <h1></h1>
+    </section>
+    <script type = "module" src = "scripts/address.js"></script>
 </body>
+
 </html>
